@@ -1,17 +1,22 @@
+
 let city= {
     name:{
         currentName: "Karachi",
         previous: "Kolachi",
     },
     population: 2500000,
-    famousPlaces:{ 
+    famousPlaces:{
         historicalPlaces:['Mazar ghazi', 'jinnah residency'],
         foodPoints:['burns road', 'nazimabad'],
         picnicPlaces:['seaview', 'clifton', 'meusum'],
     },
+    
 
 
 };
+for( let i = 0; i < city.famousPlaces.picnicPlaces.length; i++){
+ console.log(city.famousPlaces.picnicPlaces[i]);
+}
 
 console.log(city);
 console.log(city.famousPlaces.foodPoints);
